@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  max-width: 1400px;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  width: 250px;
+  height: 200px;
+  padding-top: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 40px 60px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 0;
+}
+
+.btn {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input {
+  display: block;
+  margin: 20px 0px;
+  padding: 5px 10px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
+
+.serach-wrapper {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+
+}
+
+.serach-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 10px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
